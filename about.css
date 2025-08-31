@@ -1,0 +1,61 @@
+.about-section h3{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(42, 203, 149, 0.678);
+}
+.about-section h2{
+    margin-top: 10px;
+  
+
+}
+li{
+    list-style:square;
+    /* color: aqua; */
+}
+.about-section h3:hover{
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+.about,.mission,.why-smileback,.start{
+    padding: 20px;
+    line-height: 1.6;
+}
+.work{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+}
+.work-content{
+    margin-top: 5px;
+    padding: 10px;
+    background-color:#8c9c9e34; 
+    line-height: 1.6;
+}
+.work-content:hover
+{
+ transform: scale(1.03);
+  transition: 0.3s ease;   
+}
+@media (max-width:429px){
+
+.about,.mission,.why-smileback,.start{
+    padding: 20px;
+    line-height: 1.2;
+    font-size: medium;
+}
+.work{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:5px;
+}
+.work-content{
+    margin-top: 5px;
+    padding: 10px;
+    background-color:#8c9c9e34; 
+    line-height: 1.4;
+}
+
+}

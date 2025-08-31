@@ -1,0 +1,9 @@
+.form-section h2{
+ margin-top: 20px;
+ background-color: rgb(56, 183, 141);
+}
+@media (max-width:429px){
+body{
+    font-size: small;
+}
+}

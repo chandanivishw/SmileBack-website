@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Lost Item - SmileBack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <h3>😀 <strong><em> SmileBack</em></strong></h3>
+        </div>
+        <div class="nav-links">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="lost.html">Lost</a>
+                <a href="find.html">Find</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="form-section">
+        <h2>Report Lost Item</h2>
+        <form action="" method="POST" class="form-container">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required> <br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="item">Lost Item Name:</label>
+            <input type="text" id="item" name="item" required><br>
+
+            <label for="location">Where You Lost It:</label>
+            <input type="text" id="location" name="location" required><br>
+
+            <label for="date">Date of Loss:</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" placeholder="Color, brand, special markings, etc."></textarea><br>
+
+            <button type="submit" class="btn submit-btn">Submit Lost Report</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 SmileBack – Built with ❤️</p>
+</footer>
+
+</body>
+</html>
